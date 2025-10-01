@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | Notifications page</title>
+
+</head>
+<body>
+
+  <main>
+
+    <header>
+        <div class="notifications">
+          <h1>Notifications <span class="counter">3</span></h1>
+          <p class="cleanNotifications">Mark all as read</p>
+        </div>
+    </header>
+
+  
+    <div class="msg unread">
+        <img src="./assets/images/avatar-mark-webber.webp" alt="useravatar">
+        <div class="text">
+          <div class="entry">
+            <p><span class="user">Mark Webber</span><span class="comment">reacted to your recent post</span><span class="related">My first tournament today!</span><span class="unreadMarker"><svg height="8" width="8" xmlns="http://www.w3.org/2000/svg"><circle r="4" cx="4" cy="4" /></svg></span></p>
+          </div>
+          <p class="passedTime">1m ago</p>
+        </div>
+    </div>
+
+    <div class="msg unread">
+      <img src="./assets/images/avatar-angela-gray.webp" alt="useravatar">
+      <div class="text">
+        <div class="entry">
+          <p><span class="user">Angela Gray</span><span class="comment">followed you</span><span class="unreadMarker"><svg height="8" width="8" xmlns="http://www.w3.org/2000/svg"><circle r="4" cx="4" cy="4" /></svg></span></p>
+        </div>
+        <p class="passedTime">5m ago</p>
+      </div>
+    </div>
+
+    <div class="msg unread">
+      <img src="./assets/images/avatar-jacob-thompson.webp" alt="useravatar">
+      <div class="text">
+        <div class="entry">
+          <p><span class="user">Jacob Thompson</span><span class="comment">has joined your group</span><span class="related group">Chess Club</span><span class="unreadMarker"><svg height="8" width="8" xmlns="http://www.w3.org/2000/svg"><circle r="4" cx="4" cy="4" /></svg></span></p>
+        </div>
+        <p class="passedTime">1 day ago</p>
+      </div>
+    </div>
+
+    <div class="msg">
+      <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="useravatar">
+      <div class="text">
+        <div class="entry">
+          <p><span class="user">Rizky Hasanuddin</span><span class="comment">sent you a private message</span><span class="related"></span><span class="unread"></span></p>
+        </div>
+        <p class="passedTime">5 days ago</p>
+        <div class="privateMsg">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</div>
+      </div>
+    </div>
+
+    <div class="msg">
+      <img src="./assets/images/avatar-kimberly-smith.webp" alt="useravatar">
+      <div class="text">
+        <div class="entry">
+          <p><span class="user">Kimberly Smith</span><span class="comment">commented on your picture</span><span class="related"></span><span class="unread"></span></p>          
+        </div>
+        <p class="passedTime">1 week ago</p>
+      </div>
+      <img class="publishedContent" src="./assets/images/image-chess.webp" alt="published-content">
+    </div>
+
+
+    <div class="msg">
+      <img src="./assets/images/avatar-nathan-peterson.webp" alt="useravatar">
+      <div class="text">
+        <div class="entry">
+          <p><span class="user">Nathan Peterson</span><span class="comment">reacted to your recent post</span><span class="related">5 end-game strategies to increase your win rate</span><span class="unread"></span></p>
+        </div>
+        <p class="passedTime">2 weeks ago</p>
+      </div>
+    </div>
+
+    <div class="msg">
+      <img src="./assets/images/avatar-anna-kim.webp" alt="useravatar">
+      <div class="text">
+        <div class="entry">
+          <p><span class="user">Anna Kim</span><span class="comment">left the group</span><span class="related group">Chess Club</span><span class="unread"></span></p>
+        </div>
+        <p class="passedTime">2 weeks ago</p>
+      </div>
+    </div>
+  </main>  
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mateus Risso Di Blasio</a>.
+  </footer>
+  <script type="module" src="index.js"></script>
+</body>
+</html>
